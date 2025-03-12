@@ -10,10 +10,15 @@ body {
 a{
   text-decoration: none;
 }
+.navdiv{
+  display: flex;
+  justify-content: space-between;
+   background-color: #2e2c2c;
+
+}
 .navdiv ul{
   overflow: hidden;
   list-style-type: none;
-  background-color: #2e2c2c;
   padding: 0px;
 }
 .navdiv a{
@@ -35,16 +40,24 @@ a{
 .search-container{
   display: flex;
   padding: 10px;
-  background-color: #2e2c2c;
-  justify-content: flex-start;
+  border-width: 20px; 
+}
+.search-bar{
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 20%;
+  border-style:none;
 
 }
 .search-but{
   border: none;
   background-color: burlywood;
   color: whitesmoke;
-  width: 50px;
-  height: auto;
+  width: 70px;
+  font-size: large;
+
+  height: 30px;
 
 } 
 
