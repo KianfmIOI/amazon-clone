@@ -10,6 +10,10 @@ body {
 a{
   text-decoration: none;
 }
+
+.space{
+  height: 100px;
+}
 .navdiv{
   display: flex;
   justify-content: space-between;
@@ -27,7 +31,6 @@ a{
   text-align:center;
   color: aliceblue;
   font-size: large;
-  text-decoration: none;
   justify-content: space-evenly;
 }
 .navdiv a:hover{background-color: #252424;}
@@ -190,11 +193,12 @@ a{
   
 }
 .second-style-image{
-  border-radius: 3%;
+  border-radius: 15%;
   opacity: 1;
   display: block;
   width: 300px;
   height: auto;
+
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -203,6 +207,8 @@ a{
   opacity: 0;
   top: 50%;
   left: 50%;
+  width: 50px;
+  height: auto;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -219,6 +225,7 @@ a{
   width: calc(300px);
   flex-direction: column;
   justify-content: center;
+  border-radius: 15%;
   background-color: #2e2e2e;
   position: relative;
 }
@@ -227,4 +234,16 @@ p.second-items-title{
   text-align: center;
   justify-content: center;
 }
-
+.footer-container{
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footerDiv{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: auto;
+}
