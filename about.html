@@ -23,6 +23,13 @@
         text-align: center;
         justify-content: space-between;
       }
+      .intro#text {
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+      }
     </style>
 
     <nav class="navbar">
@@ -55,7 +62,7 @@
               <li><a href="#bottom">contact</a></li>
             </div>
           </ul>
-          <li class="wrapper">
+          <li class="wrapper" style="list-style: none">
             <a href="#">things</a>
             <ul class="dropdown">
               <li><a href="./about.html">about me</a></li>
@@ -70,8 +77,8 @@
 
     <div class="intro">
       <h1>about me</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+      <p class="intro" id="text">
+        Lorem ipsum dolor si t amet consectetur adipisicing elit. Suscipit,
         consequuntur. Impedit vero nisi odit, sunt quis vel error tempore
         maxime, ea eveniet libero corrupti. Magnam quia error architecto commodi
         eaque?
